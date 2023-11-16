@@ -10,7 +10,9 @@
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
+ *
  * @prev: points to the previous element of the stack (or queue)
+ *
  * @next: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
@@ -25,9 +27,13 @@ typedef struct stack_s
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: value
+ *
  * @file: pointer to monty file
+ *
  * @content: line content
+ *
  * @lifi: flag change stack <-> queue
+ *
  * Description: carries values through the program
  */
 typedef struct bus_s
@@ -40,11 +46,13 @@ typedef struct bus_s
 extern bus_t bus;
 /**
  * struct instruction_s - opcode and its function
+ *
  * @opcode: the opcode
+ *
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO
  */
 typedef struct instruction_s
 {
